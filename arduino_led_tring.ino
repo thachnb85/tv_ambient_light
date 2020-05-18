@@ -4,6 +4,7 @@
 
 #include <Adafruit_NeoPixel.h>
  
+// TODO: EDIT YOUR PINOUT HERE
 #define PIN        3
 // TODO: EDIT YOUR LED HERE
 #define NUMPIXELS 35
