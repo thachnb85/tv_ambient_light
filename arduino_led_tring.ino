@@ -7,15 +7,16 @@
 // TODO: EDIT YOUR PINOUT HERE
 #define PIN        3
 // TODO: EDIT YOUR LED HERE
-#define NUMPIXELS 35
+#define NUMPIXELS 150
 #define serialRate 115200
 
+// Banggood led NEO_GRBW
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRBW + NEO_KHZ800);
-#define DELAYVAL 50
 
 void setup() {
   pixels.begin();
   Serial.begin(serialRate);
+ 
   // Send "Magic Word" string to host
   Serial.print("Ada\n");
 
@@ -43,10 +44,10 @@ void setup() {
   pixels.show();
 }
 
-// Baudrate, higher rate allows faster refresh rate and more LEDs (defined in /etc/boblight.conf)
+// Baudrate, higher rate allows faster refresh rate and more LEDs
 #define serialRate 115200
 
-// Adalight sends a "Magic Word" (defined in /etc/boblight.conf) before sending the pixel data
+// Adalight sends a "Magic Word" before sending the pixel data
 uint8_t prefix[] = {'A', 'd', 'a'}, hi, lo, chk, i;
 
 void loop() { 
