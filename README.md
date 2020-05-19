@@ -1,4 +1,4 @@
-# 0. How it works?
+# 0. How it works
 The Prismatik software will capture the screen, averaging the edge's pixel colors, and send the command to LED string via serial.
 
 # 1. Hardware
