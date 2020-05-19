@@ -13,7 +13,7 @@
 - Connect GND of 5V power supply to GND of arduino to keep sync
 - Digital output of Arduino -> resistor -> data line of led string
 
-# 2. Adrduino Code
+# 2. Arduino Code
 - See arduino_led_tring.ino
 - Edit the correct number of led
 - Edit the output pin (Default is D3).
