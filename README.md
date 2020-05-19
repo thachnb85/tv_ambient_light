@@ -1,6 +1,6 @@
 # 0. How it works
-- The video content will be played on the laptop/desktop, and connects output to TV via HDMI.
-- The Prismatik software on the laptop/desktop will capture the screen, averaging the edge's pixel colors, and send the command to LED string via serial.
+- The video content will be played on the laptop/desktop, and the output is connected to TV via HDMI.
+- The Prismatik software on the laptop/desktop will capture the screen, averaging the edge's pixels colour, and send the command to LED string via serial port.
 
 # 1. Hardware
 ## Components:
