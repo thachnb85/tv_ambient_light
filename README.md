@@ -1,5 +1,6 @@
 # 0. How it works
-The Prismatik software will capture the screen, averaging the edge's pixel colors, and send the command to LED string via serial.
+- The video content will be played on the laptop/desktop, and connects output to TV via HDMI.
+- The Prismatik software on the laptop/desktop will capture the screen, averaging the edge's pixel colors, and send the command to LED string via serial.
 
 # 1. Hardware
 ## Components:
@@ -9,7 +10,7 @@ The Prismatik software will capture the screen, averaging the edge's pixel color
 - Led string: RGB, link: https://www.banggood.com/1M-5M-WS2812B-5-Pins-RGBW-RGBWW-4-IN-1-LED-Strip-Light-Non-Waterproof-DC5V-p-1211152.html
 
 ## Schematic:
--  Connect GND of 5V power supply to GND of arduino to keep sync
+- Connect GND of 5V power supply to GND of arduino to keep sync
 - Digital output of Arduino -> resistor -> data line of led string
 
 # 2. Adrduino Code
