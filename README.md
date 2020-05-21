@@ -21,3 +21,9 @@
 # 3. Software 
 - Prismatik folk, from: https://github.com/psieg/Lightpack/releases
 - Add new device and setup the correct led numbers.
+
+# 4. References
+- Similar guide using FastLed lib, No soldering: https://www.youtube.com/watch?v=-UZq92TpUqQ and https://www.youtube.com/watch?v=juC-3imLoTQ
+- Another guide using Raspberry Pi for controling https://www.youtube.com/watch?v=kf2WNVrerck, and https://www.youtube.com/watch?v=-T-BHX3sFqA
+- Raspberry 3, no soldering, https://hyperion-project.org/threads/raspberry-pi-3-mediacenter-hyperion-ambilight-no-soldering.77/
+
